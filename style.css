@@ -1,0 +1,58 @@
+/* style.css */
+
+#clock-container {
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background for readability */
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+#clock {
+    font-size: 3em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+#clock-container {
+    background-color: ;
+    padding: 00px;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+#clock {
+    font-size: 7em;
+    color: #FFFFFF;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the clock horizontally */
+    align-items: center;     /* Center the clock vertically */
+    height: 100vh;
+    background: url('5.jpg') no-repeat center center fixed; /* Background image */
+    background-size: contain; /* Contain the image within the viewport */
+    font-family: 'Algerian', ALGERIAN;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: left; /* Center the clock horizontally within the container */
+    align-items: center;     /* Center the clock vertically within the container */
+    width: 100%;
+    height: 100%;            /* Make the container fill the entire viewport */
+    background-color: rgba(0, 0, 0, 0); /* Optional: Semi-transparent background for readability */
+    padding: 300px;           /* Add padding if needed */
+    border-radius: 10px;      /* Optional: Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0); /* Optional: Subtle shadow for depth */
+}
+
+#clock {
+    font-size: 5em;          /* Adjust font size as needed */
+    color: rgb(250, 235, 215)
+;          /* Ensure the text color contrasts with the background */
+    text-align: LEFT;      /* Center the text within the clock container */
+}
